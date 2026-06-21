@@ -1,0 +1,12 @@
+{
+  "name": "coding-plugin",
+  "displayName": "coding-plugin",
+  "version": "0.0.1",
+  "description": "整合日常高频使用的skills、commands以及plugin等,解决团队成员工具配置零散、复用成本高的问题",
+  "author": {
+    "name": "liaogui",
+    "email": "liaogui1023@163.com"
+  },
+  "repository": "https://github.com/liaogui1023/coding-plugin.git",
+  "license": "MIT"
+}

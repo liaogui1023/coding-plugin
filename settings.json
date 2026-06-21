@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(rm -rf:*)"
+    ],
+    "defaultMode": "bypassPermissions"
+  },
+  "model": "deepseek-v4-pro",
+  "statusLine": {
+    "type": "command",
+    "command": ".statusline.sh",
+    "padding": 2
+  },
+  "extraKnownMarketplaces": {
+    "claude-plugins-official": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official"
+      },
+      "autoUpdate": true
+    },
+    "ui-ux-pro-max-skill": {
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "jdtls-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
+  },
+  "ENABLE_LSP_TOOL": "1"
+}
