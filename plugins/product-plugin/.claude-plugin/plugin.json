@@ -1,0 +1,11 @@
+{
+  "name": "product-plugin",
+  "displayName": "product-plugin",
+  "version": "0.0.1",
+  "description": "产品需求插件，提供 PRD 文档编写等产品需求相关工具",
+  "author": {
+    "name": "liaogui",
+    "email": "liaogui1023@163.com"
+  },
+  "license": "MIT"
+}

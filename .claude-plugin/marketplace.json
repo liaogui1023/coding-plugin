@@ -4,5 +4,26 @@
     "name": "liaogui",
     "email": "liaogui1023@163.com"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "product-plugin",
+      "source": "./plugins/product-plugin",
+      "description": "产品需求插件，提供 PRD 文档编写等产品需求相关工具"
+    },
+    {
+      "name": "ui-plugin",
+      "source": "./plugins/ui-plugin",
+      "description": "UI 设计插件，协助完成 UI 方案设计与前端开发工作"
+    },
+    {
+      "name": "dev-plugin",
+      "source": "./plugins/dev-plugin",
+      "description": "开发辅助插件，提供 CLAUDE.md 生成、skill 创建、PR 管理等开发工具"
+    },
+    {
+      "name": "test-plugin",
+      "source": "./plugins/test-plugin",
+      "description": "测试辅助插件（规划中，欢迎贡献）"
+    }
+  ]
 }

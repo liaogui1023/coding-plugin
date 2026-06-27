@@ -1,0 +1,11 @@
+{
+  "name": "test-plugin",
+  "displayName": "test-plugin",
+  "version": "0.0.1",
+  "description": "测试辅助插件（规划中，欢迎贡献）",
+  "author": {
+    "name": "liaogui",
+    "email": "liaogui1023@163.com"
+  },
+  "license": "MIT"
+}
