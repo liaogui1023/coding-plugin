@@ -1,4 +1,4 @@
-# xiaoli-plugin
+# coding-plugin
 
 一个 Claude Code 插件市场，按开发角色划分插件，解决团队成员工具配置零散、复用成本高的问题。
 
@@ -60,21 +60,21 @@
 根据需要安装对应的插件：
 
 ```
-/plugin install product-plugin@xiaoli-plugin   # 产品需求
-/plugin install ui-plugin@xiaoli-plugin        # UI 设计
-/plugin install dev-plugin@xiaoli-plugin       # 开发
-/plugin install test-plugin@xiaoli-plugin      # 测试
+/plugin install product-plugin@coding-plugin   # 产品需求
+/plugin install ui-plugin@coding-plugin        # UI 设计
+/plugin install dev-plugin@coding-plugin       # 开发
+/plugin install test-plugin@coding-plugin      # 测试
 ```
 
 也可以一次性全部安装：
 
 ```
-/plugin install product-plugin@xiaoli-plugin ui-plugin@xiaoli-plugin dev-plugin@xiaoli-plugin test-plugin@xiaoli-plugin
+/plugin install product-plugin@coding-plugin ui-plugin@coding-plugin dev-plugin@coding-plugin test-plugin@coding-plugin
 ```
 
 ## 插件市场信息
 
-- **市场名称**: `xiaoli-plugin`
+- **市场名称**: `coding-plugin`
 - **所有者**: [liaogui](mailto:liaogui1023@163.com)
 - **仓库**: [https://github.com/liaogui1023/coding-plugin](https://github.com/liaogui1023/coding-plugin)
 - **许可证**: MIT
