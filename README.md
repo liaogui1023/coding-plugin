@@ -66,11 +66,6 @@
 /plugin install test-plugin@coding-plugin      # 测试
 ```
 
-也可以一次性全部安装：
-
-```
-/plugin install product-plugin@coding-plugin ui-plugin@coding-plugin dev-plugin@coding-plugin test-plugin@coding-plugin
-```
 
 ## 插件市场信息
 
