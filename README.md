@@ -4,7 +4,7 @@
 
 ## 插件列表
 
-本市场包含 4 个插件，覆盖软件开发的完整流程：
+本市场包含 5 个插件，覆盖软件开发的完整流程：
 
 ### 1. product-plugin（产品需求）
 
@@ -34,10 +34,30 @@
 | Skill | `claude-md` | 生成/更新 CLAUDE.md 项目文档 |
 | Skill | `find-skills` | 搜索和发现 skills |
 | Skill | `skill-creator` | 创建自定义 skill |
-| Skill | `superpowers` | 超级能力合集 |
 | Command | `pr` | PR 创建与管理 |
 
-### 4. test-plugin（测试）
+### 4. superpowers（通用技能集）
+
+跨角色的通用开发技能集合，适用于所有开发者。
+
+| 能力类型 | 名称 | 说明 |
+|---------|------|------|
+| Skill | `brainstorming` | 可视化头脑风暴 |
+| Skill | `dispatching-parallel-agents` | 并行 Agent 调度 |
+| Skill | `executing-plans` | 计划执行 |
+| Skill | `finishing-a-development-branch` | 开发分支收尾 |
+| Skill | `receiving-code-review` | 接收代码审查反馈 |
+| Skill | `requesting-code-review` | 发起代码审查请求 |
+| Skill | `subagent-driven-development` | 子 Agent 驱动开发（SDD） |
+| Skill | `systematic-debugging` | 系统化调试 |
+| Skill | `test-driven-development` | 测试驱动开发 |
+| Skill | `using-git-worktrees` | Git Worktree 使用指南 |
+| Skill | `using-superpowers` | Superpowers 使用指南 |
+| Skill | `verification-before-completion` | 完成前验证 |
+| Skill | `writing-plans` | 编写开发计划 |
+| Skill | `writing-skills` | 编写自定义 Skill |
+
+### 5. test-plugin（测试）
 
 面向测试工程师（规划中，欢迎贡献）。
 
@@ -63,6 +83,7 @@
 /plugin install product-plugin@coding-plugin   # 产品需求
 /plugin install ui-plugin@coding-plugin        # UI 设计
 /plugin install dev-plugin@coding-plugin       # 开发
+/plugin install superpowers@coding-plugin     # 通用技能集
 /plugin install test-plugin@coding-plugin      # 测试
 ```
 
