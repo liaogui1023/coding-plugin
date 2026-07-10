@@ -24,6 +24,11 @@
       "name": "test-plugin",
       "source": "./plugins/test-plugin",
       "description": "测试辅助插件（规划中，欢迎贡献）"
+    },
+    {
+      "name": "superpowers",
+      "source": "./plugins/superpowers",
+      "description": "Superpowers 通用技能集，提供 brainstorming、TDD、code review、systematic debugging 等跨角色开发技能"
     }
   ]
 }

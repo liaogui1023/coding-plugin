@@ -1,7 +1,7 @@
 {
   "name": "dev-plugin",
   "displayName": "dev-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "开发辅助插件，提供 CLAUDE.md 生成、skill 创建、PR 管理、高级搜索等开发工具",
   "author": {
     "name": "liaogui",
